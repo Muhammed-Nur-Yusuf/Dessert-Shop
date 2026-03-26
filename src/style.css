@@ -1,0 +1,200 @@
+.body{
+    height: 140vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 30px;
+}
+
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card{
+    width: 200px;
+    height: 310px;
+    position: relative;
+    
+}
+
+.icon{
+    width: 20px;
+    margin-right: 5px;
+    
+}
+
+.card-btn{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid rgba(255, 0, 0, 0.262);
+    border-radius: 30px;  
+    width: 140px;     
+    padding: 9px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+
+p{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+h3{
+    margin-top: 8px;
+    margin-bottom: 0px;
+
+}
+
+h4{
+    margin-top: 8px;
+    color: rgb(206, 6, 6);
+}
+
+.next-btn{
+    width: 90px;
+    height: 50px;
+    margin: auto;
+    margin-left: 285%;
+    margin-top: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(206, 6, 6);
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+.btn-style{
+    margin: 0px 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(206, 6, 6);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+
+
+@media screen and (min-width: 750px) and (max-width: 1000px) {
+    .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    gap: 20px 30px;
+}
+
+.body{
+    height: 155vh;
+    margin: 0;
+    padding: 0;
+}
+
+.next-btn{
+    width: 90px;
+    height: 50px;
+    margin: auto;
+    margin-left: 145%;
+    margin-top:20%;
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(206, 6, 6);
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+h1{
+    text-align: center;
+    margin:40px 0px 10px 0px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 20px 30px;
+}
+
+
+.body{
+    height: 230vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.next-btn{
+    width: 90px;
+    height: 50px;
+    margin: auto;
+    margin-top: 73%;
+    margin-left:54%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(206, 6, 6);
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+h1{
+    text-align: center;
+    margin:40px 0px -10px 0px;
+}
+
+
+
+}
+

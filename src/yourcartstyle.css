@@ -1,0 +1,128 @@
+.body2{
+    height: 15vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.h11{
+    text-align: center;
+    margin: 40px 0px 10px 0px;
+}
+
+.yourcart{
+    width: 250px;
+    height: 100%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 10px 20px 50px 20px;
+}
+
+
+.itemname{
+    margin:0px 0px 0px 0px;
+    
+}
+
+.itemprice{
+    margin: 10px 0px 0px 0px;
+    
+}
+
+.pricespan{
+    margin-right: 10px;
+    
+
+}
+
+.number{
+    color: rgb(172, 0, 0);
+    margin-right: 10px;
+}
+
+.totalspan{
+    font-weight: bold;
+}
+
+
+.confirm{
+    padding: 10px 15px;
+    background-color: rgb(172, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.hr{
+    border: 1px solid #cccccc2d;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+}
+
+
+
+.totaldiv{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.totaldiv h2{
+    margin: 12px 0px 0px 0px;
+}
+
+
+
+.success-message{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5); /* خلفية غامقة */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm-icon{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+
+
+.yourcartbtns{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 32px ;
+    gap: 100px;
+}
+
+
+
+.goback{
+    padding: 10px 15px;
+    background-color:gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
