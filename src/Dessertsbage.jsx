@@ -24,7 +24,7 @@ function Dessertsbage() {
     { id: 1, name: "Salted caramel Brownie", price: 5.5, image: img1, p:"Brownie" },
     { id: 2, name: "Pistachio baklava", price: 4.0, image: img2, p:"Baklava" },
     { id: 3, name: "Red velvet cake", price: 4.5, image: img3, p:"Cake" },
-    { id: 4, name: "Vanilla bean creme brülee", price: 7.0, image: img4, p:"Creme Brulee" },
+    { id: 4, name: "Vanilla bean creme ", price: 7.0, image: img4, p:"Creme Brulee" },
     { id: 5, name: "Macaron mix of five", price: 8.0, image: img5, p:"Macaron" },
     { id: 6, name: "Lemon meringue pie", price: 5.0, image: img6, p:"Meringue Pie" },
     { id: 7, name: "Vanilla panna cotta", price: 6.5, image: img7, p:"Panna Cotta" },
