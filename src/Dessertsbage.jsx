@@ -86,7 +86,7 @@ return (
                     })
                   }
                 >
-                  <img className="icon-style" src={icon2} alt="" />
+                  -
                 </button>
 
 
@@ -101,7 +101,7 @@ return (
                     })
                   }
                 >
-                  <img className="icon-style" src={icon3} alt="" />
+                  +
                 </button>
               </div>
             );
