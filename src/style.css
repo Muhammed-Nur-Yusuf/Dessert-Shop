@@ -1,5 +1,5 @@
 .body{
-    height: 140vh;
+    min-height: 140vh;
     margin: 0;
     padding: 0;
 }
@@ -148,7 +148,7 @@ h4{
 }
 
 .body{
-    height: 155vh;
+    min-height: 155vh;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -227,7 +227,7 @@ h4{
 
 
 .body{
-    height: 230vh;
+    min-height: 230vh;
     margin: 0;
     padding: 0;
 }
@@ -305,7 +305,7 @@ h4{
 }
 
 .body{
-    height: 370vh;
+    min-height: 370vh;
     margin: 0;
     padding: 0;
 
