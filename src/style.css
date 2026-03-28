@@ -17,7 +17,7 @@
 
 h1{
     text-align: center;
-    margin: 40px 0px 0px 0px;
+    margin: 40px 0px 10px 0px;
 
 }
 
@@ -218,7 +218,7 @@ h4{
 
 
 
-@media screen and (max-width: 759px)  {
+@media screen and (min-width:464px) and (max-width: 759px)  {
 .cards{
     display: grid;
     grid-template-columns: repeat(2, 4fr);
@@ -255,7 +255,7 @@ h4{
 
 h1{
     text-align: center;
-    margin:40px 0px -10px 0px;
+    margin:40px 0px 10px 0px;
 }
 
 
@@ -294,7 +294,7 @@ h4{
 
 
 
-@media screen and (max-width: 400px) and (min-width:1px )  {
+@media screen and (max-width: 464px) and (min-width:1px )  {
     .card{
     width: 100%;
     max-width: 200px;
@@ -320,7 +320,7 @@ h4{
 
 h1{
     text-align: center;
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0px 10px 0px;
 
 }
 p{
